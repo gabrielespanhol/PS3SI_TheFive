@@ -24,7 +24,7 @@ class _CoursesScreenState extends State<CoursesScreen> {
                 stops: [0.0, 0.5],
                 tileMode: TileMode.clamp),
             image: new DecorationImage(
-              image: new AssetImage("logo.png"),
+              image: new AssetImage("cursos.png"),
             ),
           ),
           child: Padding(

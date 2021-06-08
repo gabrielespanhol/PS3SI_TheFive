@@ -6,6 +6,7 @@ import 'package:ps_thefive/screens/login_screen.dart';
 import 'package:ps_thefive/screens/password_screen.dart';
 import 'package:ps_thefive/screens/research_screen.dart';
 import 'package:ps_thefive/screens/register_screen.dart';
+import 'package:ps_thefive/screens/subscribe_screen.dart';
 
 
 void main() {
@@ -23,6 +24,7 @@ class MyApp extends StatelessWidget {
         '/cadastro': (context) => RegisterScreen(),
         '/senha': (context) => PasswordScreen(),
         '/rank': (context) => CoursesScreen(),
+        '/inscricao': (context) =>SubscribeScreen(),
         '/detalhes': (context) => Detalhes(),
 
       },
