@@ -125,7 +125,7 @@ class _SubscribeScreenState extends State<SubscribeScreen> {
       ),
     );
 
-    final conta = Material(
+    final voltar = Material(
         child: GestureDetector(
         onTap: () =>  (
          Navigator.pop(context)
@@ -253,7 +253,8 @@ class _SubscribeScreenState extends State<SubscribeScreen> {
             SizedBox(height: 20),
             registerButon,
             SizedBox(height: 20),
-            conta,
+            voltar,
+            SizedBox(height: 30),
           ],
         ),
       ),

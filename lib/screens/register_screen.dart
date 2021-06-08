@@ -143,7 +143,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
           );
           ScaffoldMessenger.of(context).showSnackBar(
                   SnackBar(
-                    content: Text("Registrado com Sucesso",
+                    content: Text("Registrado com sucesso",
                       textAlign: TextAlign.center,
                     ),
                     duration: const Duration(milliseconds: 1500),

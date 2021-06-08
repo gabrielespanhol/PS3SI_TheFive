@@ -79,7 +79,7 @@ class _PasswordScreenState extends State<PasswordScreen> {
           ScaffoldMessenger.of(context).showSnackBar(
             SnackBar(
               content: Text(
-                "Senha nova Solicitada",
+                "Senha nova solicitada",
                 textAlign: TextAlign.center,
               ),
               duration: const Duration(milliseconds: 1500),
@@ -91,7 +91,7 @@ class _PasswordScreenState extends State<PasswordScreen> {
             ),
           );
         },
-        child: Text("Solicitar Senha",
+        child: Text("Solicitar senha",
             textAlign: TextAlign.center,
             style: style.copyWith(
                 color: Colors.white, fontWeight: FontWeight.bold)),
