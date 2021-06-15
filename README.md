@@ -2,4 +2,4 @@
 
 Um aplicativo para visualizar bootcamps
 
-<img src="foto1.png" width="350">
+<img src="fotos/Foto1.jpeg" width="350">
